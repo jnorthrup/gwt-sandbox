@@ -20,11 +20,11 @@ import com.google.gwt.core.ext.TreeLogger;
 import com.google.gwt.core.ext.UnableToCompleteException;
 import com.google.gwt.dev.json.JsonArray;
 import com.google.gwt.dev.json.JsonObject;
-import com.google.gwt.thirdparty.org.mortbay.jetty.HttpConnection;
-import com.google.gwt.thirdparty.org.mortbay.jetty.Request;
-import com.google.gwt.thirdparty.org.mortbay.jetty.Server;
-import com.google.gwt.thirdparty.org.mortbay.jetty.handler.AbstractHandler;
-import com.google.gwt.thirdparty.org.mortbay.jetty.nio.SelectChannelConnector;
+import org.mortbay.jetty.HttpConnection;
+import org.mortbay.jetty.Request;
+import org.mortbay.jetty.Server;
+import org.mortbay.jetty.handler.AbstractHandler;
+import org.mortbay.jetty.nio.SelectChannelConnector;
 
 import java.io.BufferedReader;
 import java.io.File;
