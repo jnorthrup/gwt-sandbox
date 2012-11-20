@@ -22,7 +22,6 @@ import com.google.gwt.user.client.rpc.impl.ClientSerializationStreamReaderTest;
 import com.google.gwt.user.rebind.rpc.BlacklistTypeFilterTest;
 import com.google.gwt.user.rebind.rpc.SerializableTypeOracleBuilderTest;
 import com.google.gwt.user.rebind.rpc.TypeHierarchyUtilsTest;
-import com.google.gwt.user.server.Base64Test;
 import com.google.gwt.user.server.UtilTest;
 import com.google.gwt.user.server.rpc.AbstractXsrfProtectedServiceServletTest;
 import com.google.gwt.user.server.rpc.RPCRequestTest;
