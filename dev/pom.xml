@@ -29,6 +29,34 @@
         </pluginManagement>
     </build>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>ant</groupId>
+                <artifactId>ant</artifactId>
+                <version>1.6.5</version>
+            </dependency>
+
+            <!-- Rebased -->
+            <dependency>
+                <groupId>com.google.javascript</groupId>
+                <artifactId>closure-compiler</artifactId>
+                <version>r1649</version>
+                <scope>system</scope>
+                <systemPath>${GWT_TOOLS}/lib/jscomp/r1649/compiler-rebased.jar</systemPath>
+            </dependency>
+
+            <!-- Not found in Central -->
+            <dependency>
+                <groupId>org.eclipse.jdt</groupId>
+                <artifactId>core</artifactId>
+                <version>3.4.2_r894</version>
+                <scope>system</scope>
+                <systemPath>${GWT_TOOLS}/lib/eclipse/jdt-3.4.2_r894.jar</systemPath>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <modules>
         <module>gwt-jsni-parser</module>
         <module>gwt-dev-json</module>
