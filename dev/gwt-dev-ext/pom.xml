@@ -28,19 +28,7 @@
         	<artifactId>commons-collections</artifactId>
         	<version>3.2.1</version>
         </dependency>
-        <dependency>
-            <groupId>com.google.javascript</groupId>
-            <artifactId>sourcemap</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-        </dependency>
 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-        </dependency>
         <dependency>
             <groupId>net.sourceforge.htmlunit</groupId>
             <artifactId>htmlunit</artifactId>
@@ -51,5 +39,17 @@
             <artifactId>htmlunit-core-js</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>deprecated</groupId>
+            <artifactId>guava</artifactId>
+            <version>10.0.1-rebased</version>
+        </dependency>
+
+        <dependency>
+            <groupId>deprecated</groupId>
+            <artifactId>sourcemap-rebased</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 </project>

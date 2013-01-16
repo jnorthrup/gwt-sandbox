@@ -56,23 +56,28 @@
             </plugins>
         </pluginManagement>
     </build>
-
+                                   <repositories>
+                                                           <repository>
+            <id>gwt-maven-rewraps</id>
+            <url>http://gwt-maven-rewraps.googlecode.com/git/</url>
+        </repository>
+                                   </repositories>
     <dependencyManagement>
         <dependencies>
-            <dependency>
+      <!--      <dependency>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>jetty</artifactId>
                 <version>6.1.11</version>
             </dependency>
 
-            <!-- Rebased -->
+            &lt;!&ndash; Rebased &ndash;&gt;
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>10.0.1-gwt-rebased</version>
                 <scope>system</scope>
                 <systemPath>${GWT_TOOLS}/lib/guava/guava-10.0.1/guava-10.0.1-rebased.jar</systemPath>
-            </dependency>
+            </dependency>-->
 
             <!-- Patched -->
             <dependency>
@@ -99,13 +104,13 @@
             </dependency>
 
             <!-- Custom -->
-            <dependency>
+           <!-- <dependency>
                 <groupId>com.google.javascript</groupId>
                 <artifactId>sourcemap</artifactId>
                 <version>1.0</version>
                 <scope>system</scope>
                 <systemPath>${GWT_TOOLS}/lib/jscomp/sourcemap-rebased.jar</systemPath>
-            </dependency>
+            </dependency>-->
 
             <!-- Test -->
             <dependency>

@@ -38,9 +38,17 @@
             <artifactId>gwt-dev-json</artifactId>
             <version>${project.version}</version>
         </dependency>
+
         <dependency>
-            <groupId>org.mortbay.jetty</groupId>
+            <groupId>deprecated</groupId>
             <artifactId>jetty</artifactId>
+            <version>6.1.11</version>
         </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.4</version>
+        </dependency>
+
     </dependencies>
 </project>
