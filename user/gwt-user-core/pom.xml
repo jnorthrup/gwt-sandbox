@@ -30,6 +30,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.google.gwt.user</groupId>
+            <artifactId>gwt-lang</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.gwt.util</groupId>
             <artifactId>gwt-shared</artifactId>
             <version>${project.version}</version>
@@ -38,11 +43,6 @@
             <groupId>com.google.gwt.dev</groupId>
             <artifactId>gwt-dev-ext</artifactId>
             <version>${project.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
         </dependency>
     </dependencies>
 </project>

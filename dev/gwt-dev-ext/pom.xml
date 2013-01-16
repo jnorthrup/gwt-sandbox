@@ -30,16 +30,6 @@
         </dependency>
 
         <dependency>
-            <groupId>net.sourceforge.htmlunit</groupId>
-            <artifactId>htmlunit</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.sourceforge.htmlunit</groupId>
-            <artifactId>htmlunit-core-js</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>deprecated</groupId>
             <artifactId>guava</artifactId>
             <version>10.0.1-rebased</version>
@@ -49,6 +39,17 @@
             <groupId>deprecated</groupId>
             <artifactId>sourcemap-rebased</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>deprecated</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version><scope>test</scope>
+
+        </dependency>
+        <dependency>
+            <groupId>deprecated</groupId>
+            <artifactId>htmlunit-r5940</artifactId>
+            <version>1.0-SNAPSHOT</version>     <scope>test</scope>
         </dependency>
 
     </dependencies>
